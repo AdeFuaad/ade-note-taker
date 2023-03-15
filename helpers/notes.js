@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
+ 
 function updateDb(id, notesArray) {
     const deletedNote = id;
     for (let i = 0; i < notesArray.length; i++) {
